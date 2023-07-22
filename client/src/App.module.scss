@@ -1,0 +1,14 @@
+.appContainer {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  .content {
+    flex: 1;
+    overflow: auto;
+    padding: 32px;
+  }
+}

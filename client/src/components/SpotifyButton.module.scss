@@ -1,0 +1,17 @@
+.button {
+  display: inline-block;
+  color: var(--primary-color);
+  text-decoration:none;
+  padding: 12px 24px;
+  margin: 32px 0;
+  border: 2px solid var(--primary-color);
+  border-radius: 40px;
+  transition: background-color .1s linear;
+  min-width: 100px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--primary-color);
+    color: #121212;
+  }
+}

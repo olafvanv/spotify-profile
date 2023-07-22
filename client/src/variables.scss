@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #1ED760;
+
+  .light-theme {
+    --surface-color: #FFFFFF;
+    --background-color: #F4F4F4;
+    --divider-color: #E3E3E3;
+    --text-color: #121212;
+  }
+
+  .dark-theme  {
+    --surface-color: #212121;
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --divider-color: #454545;
+  }
+}

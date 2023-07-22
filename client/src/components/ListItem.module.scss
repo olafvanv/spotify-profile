@@ -1,0 +1,39 @@
+.listItem {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+
+  .index {
+    opacity: .5;
+    width: 32px;
+  }
+
+  .image {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--divider-color);
+    margin-right: 16px;
+
+    img {
+      min-width: 100%;
+      min-height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .subtitle {
+      margin-top: 4px;
+      font-weight: lighter;
+    }
+  }
+}

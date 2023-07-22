@@ -1,0 +1,38 @@
+.userWrapper {
+  display: flex;
+  align-items:flex-end;
+
+  .image {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow:hidden;
+    margin-right: 16px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .nameAndMeta {
+    .name {
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+    .stats {
+      display: flex;
+      .stat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 16px;
+      
+        .total {
+          font-weight: bold;
+          color: var(--primary-color);
+          margin-bottom: 4px;
+        }
+      }
+    }
+  }
+}

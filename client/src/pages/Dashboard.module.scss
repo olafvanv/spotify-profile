@@ -1,0 +1,31 @@
+.dashboard {
+  .user {
+    width: 100%;
+    margin-bottom: 64px;
+  }
+
+  .tileRow {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 32px;
+    > * {
+      margin-right: 32px;
+    }
+
+  }
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size:14px;
+  font-weight: lighter;
+
+  svg {
+    height: 30px;
+    margin-bottom: 8px;
+    color: var(--primary-color);
+  }
+}
