@@ -10,7 +10,7 @@ const querystring = require("querystring");
 const cors = require('cors');
 const request = require('request');
 const path = require('path');
-const functions = require('./utils/functions')
+const functions = require('./utils/functions');
 
 const app = express();
 
