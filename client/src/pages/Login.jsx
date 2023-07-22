@@ -12,7 +12,7 @@ const Login = () => {
           </div>
           <h1 className={styles.title}>Spotify Stats</h1>
         </div>
-        <SpotifyButton onPress={() => window.location.href = "http://localhost:8080/login"}>Login</SpotifyButton>
+        <SpotifyButton onPress={() => window.location.href = "/login"}>Login</SpotifyButton>
       </div>
     </div>
   );
