@@ -10,7 +10,7 @@ const querystring = require("querystring");
 const cors = require('cors');
 const request = require('request');
 const path = require('path');
-const utils = require('./utils/functions')
+const functions = require('./utils/functions')
 
 const app = express();
 
@@ -19,7 +19,7 @@ app.use(express.static('client/build'));
 
 
 app.get("/login", (req, res) => {
-  var state = utils.generateRandomString(16);
+  var state = functions.generateRandomString(16);
   const scope = 'user-top-read user-read-recently-played user-follow-read playlist-read-private';
   res.redirect("https://accounts.spotify.com/authorize?" + querystring.stringify({
     response_type: 'code',
